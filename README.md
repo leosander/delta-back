@@ -1,7 +1,25 @@
-Projeto feito com CodeIgniter v4.
+# API de gestão de alunos em CodeIgniter v4
 
-- Rode o composer (composer install)
-- Configure o banco em app/Config/Database.php
-- Rode as migrations (php spark migrate)
-- Crie um arquivo .env, configure o ambiente para development (CI_ENVIRONMENT = development) e cadastre uma key para o jwt (JWT_SECRET = 'TokenAqui');
--Inicie o servidor (php spark serve)
+### 🔧 Instalação
+
+Instalar dependências:
+```
+composer install
+```
+
+Configure o arquivo Database.php em app/Config.
+
+No arquivo .env defina uma key para o JWT
+```
+JWT_SECRET= 'sua chave aqui'
+```
+
+Rode as migrations:
+```
+php spark migrate
+```
+
+Inicie o servidor
+```
+php spark serve
+```
