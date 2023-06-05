@@ -1,0 +1,6 @@
+Student Controller (App\Controllers\StudentController)
+ [x] Show students
+ [x] Create with valid data
+ [x] Create with missing data
+ [x] Create with invalid data
+

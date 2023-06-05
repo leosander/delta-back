@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.149640">
+    <testsuite name="App" tests="4" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.149640">
+      <testsuite name="App\Controllers\StudentControllerTest" file="C:\xampp74\htdocs\delta\tests\StudentControllerTest.php" tests="4" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.149640">
+        <testcase name="testShowStudents" class="App\Controllers\StudentControllerTest" classname="App.Controllers.StudentControllerTest" file="C:\xampp74\htdocs\delta\tests\StudentControllerTest.php" line="22" assertions="1" time="0.067322"/>
+        <testcase name="testCreateWithValidData" class="App\Controllers\StudentControllerTest" classname="App.Controllers.StudentControllerTest" file="C:\xampp74\htdocs\delta\tests\StudentControllerTest.php" line="31" assertions="2" time="0.030056"/>
+        <testcase name="testCreateWithMissingData" class="App\Controllers\StudentControllerTest" classname="App.Controllers.StudentControllerTest" file="C:\xampp74\htdocs\delta\tests\StudentControllerTest.php" line="52" assertions="3" time="0.028407"/>
+        <testcase name="testCreateWithInvalidData" class="App\Controllers\StudentControllerTest" classname="App.Controllers.StudentControllerTest" file="C:\xampp74\htdocs\delta\tests\StudentControllerTest.php" line="76" assertions="3" time="0.023856"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
