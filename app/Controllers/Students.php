@@ -90,8 +90,14 @@ class Students extends ResourceController
             $existingUser = $this->model->find($id);
     
             if ($existingUser && $existingUser['photo']) {
-                unlink(ROOTPATH . 'public/uploads/' . $existingUser['photo']);
+                $photoPath = ROOTPATH . 'public/uploads/' . $existingUser['photo'];
+
+                if (file_exists($photoPath)) {
+                    unlink($photoPath);
+                }   
+               
             }
+            
             $newName = $id . '.' . $file->getExtension();
             $file->move(ROOTPATH . 'public/uploads', $newName);
             $data['photo'] = $newName;
